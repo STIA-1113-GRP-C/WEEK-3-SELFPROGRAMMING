@@ -1,0 +1,22 @@
+Enter your name :
+Daniel
+Enter the first number : 
+3
+Enter the second number : 
+4
+Enter the third number : 
+5
+Enter the forth number : 
+6
+Enter your CGPA : 
+3.67
+Enter your grade : 
+A
+Name     : Daniel
+Number 1 : 3
+Number 2 : 4
+Number 3 : 5
+Number 4 : 6
+CGPA     : 3.67
+Grade    : A
+Total    : 18
