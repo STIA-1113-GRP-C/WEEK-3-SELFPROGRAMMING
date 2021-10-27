@@ -1,0 +1,22 @@
+package numericalData;
+
+public class selfProgramming1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int mark1 = 24, mark2= 34, total, minus, multi;
+		double num1 = 10, num2 = 3, divide, balance;
+		
+		total = mark1 + mark2;
+		minus = mark2 - mark1;
+		multi = mark1 * mark2;
+		divide = num1 / num2;
+		balance = num1 % num2;
+		
+		
+		System.out.println("The total is : " + total);
+		System.out.println("The minus is : " + minus);
+		System.out.println("The multiply is : " + multi);
+		System.out.println("The divide is : " + divide);
+		System.out.print("The balance is : " + balance);
+		
