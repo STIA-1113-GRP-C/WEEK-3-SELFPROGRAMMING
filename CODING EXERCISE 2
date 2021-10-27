@@ -1,0 +1,43 @@
+package numericalData;
+import java.util.Scanner;
+
+public class Exercise_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1, num2, num3, num4, total;
+		double num5;
+		char grade;
+		String name;
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Enter your name :");
+		name = sc.nextLine();
+		System.out.println("Enter the first number : ");
+		num1 = sc.nextInt();
+		System.out.println("Enter the second number : ");
+		num2 = sc.nextInt();
+		System.out.println("Enter the third number : ");
+		num3 = sc.nextInt();
+		System.out.println("Enter the forth number : ");
+		num4 = sc.nextInt();
+		System.out.println("Enter your CGPA : ");
+		num5 = sc.nextDouble();
+		System.out.println("Enter your grade : ");
+		grade = sc.next().charAt(0);
+		
+		total = num1 + num2 + num3 + num4 ;
+		
+		System.out.println("Name     : " + name);
+		System.out.println("Number 1 : " + num1);
+		System.out.println("Number 2 : " + num2);
+		System.out.println("Number 3 : " + num3);
+		System.out.println("Number 4 : " + num4);
+		System.out.println("CGPA     : " + num5 );
+		System.out.println("Grade    : " + grade);
+		System.out.print("Total    : " + total);
+
+	}
+
+}
